@@ -12,7 +12,7 @@ import com.example.mynoteapp.Entities.Note;
 @Database(entities = Note.class,version = 1,exportSchema = false)
 public abstract class NoteDatabase extends RoomDatabase {
         private static NoteDatabase noteDatabase;
-        public synchronized NoteDatabase getDatabase(Context context){
+        public static synchronized NoteDatabase getDatabase(Context context){
             if(noteDatabase==null){
                 noteDatabase=Room.databaseBuilder(
                         context,

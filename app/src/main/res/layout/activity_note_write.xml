@@ -42,6 +42,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/edt_title"
                 android:minHeight="300dp"
+                android:hint="U can write anything u want"
+                android:id="@+id/edt_noteText"
                 android:background="@null"/>
 
 
