@@ -69,7 +69,7 @@ public class NoteWriteActivity extends AppCompatActivity {
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
                 Intent intent=new Intent();
-                setResult(1,intent);
+                setResult(RESULT_OK,intent);
                 finish();
             }
         }

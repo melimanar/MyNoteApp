@@ -38,6 +38,7 @@
              android:hint="Enter Note Title"/>
 
             <EditText
+                android:gravity="top"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/edt_title"
